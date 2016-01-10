@@ -32,6 +32,8 @@ LUALIB_API int (luaopen_string) (lua_State *L);
 
 #define LUA_MATHLIBNAME	"math"
 LUALIB_API int (luaopen_math) (lua_State *L);
+#define LUA_JSONLIBNAME	"json"
+LUALIB_API int (luaopen_LuaJSON_lib) (lua_State *L);
 
 #define LUA_DBLIBNAME	"debug"
 LUALIB_API int (luaopen_debug) (lua_State *L);
